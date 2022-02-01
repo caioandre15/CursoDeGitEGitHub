@@ -14,7 +14,7 @@ Tem o objetivo de responder as perguntas que são necessárias no desenvolviment
 É um sitema que monitora e gerência as altereções de arquivos, garantindo a consistência nas alterações.
 
 ### O que o Git resolve?
-Ao trabalhar em uma equipe com vários desenvolvedores as alterações de código são feitas em paralelo. Para que isto ocorra git realiza o “merge" entre as alterações
+Ao trabalhar em uma equipe com vários desenvolvedores as alterações de código são feitas em paralelo. Para que isto ocorra o git realiza o “merge" entre as alterações
 de forma que ao final tenha-se um arquivo único com todas as alterações.
 
 ### Como o Git funciona?
