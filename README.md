@@ -65,7 +65,7 @@ arquivos.
 Este arquivo faz com que o git ignore todos arquivos mencionados. Exemplos:
 ```
 db.sqlite3 // Nome do arquivo
-***__pycache__ // Nome da pasta do arquivo 
+**__pycache__ // Nome da pasta do arquivo 
 ```
 
 
