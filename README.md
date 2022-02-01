@@ -57,6 +57,17 @@ arquivos.
  - git init // Inicia o monitoramento do git em um diretório.
  - git add (Nome do arquivo) // Altera o status do arquivo de "Untracked" ou "Modified" para "Tracked".
  - git commit -m "Digitar descrição da alterção realizada" // Altera o status de "Tracked" para "Staged".
+ 
+### Comandos Auxiliares
+ - git status
+
+### Arquivo Git Ignore
+Este arquivo faz com que o git ignore todos arquivos mencionados. Exemplos:
+```
+db.sqlite3 // Nome do arquivo
+***__pycache__ // Nome da pasta do arquivo 
+```
+
 
 
 
