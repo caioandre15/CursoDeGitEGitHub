@@ -1,4 +1,4 @@
-# CursoDeGitEGitHub
+# Curso de Git e GitHub
 Anotações do curso de "Git e Github Essencial" da Geek University (Udemy).
 
 ### O que é Git?
@@ -25,19 +25,19 @@ mostra através de um poderoso sistema de estágios (ou fases) em que estágio o
 arquivos.
 
 ### Quais são os 4 estágios do ciclo de vida de status para os arquivos no git?
- - Untracked
+ - Untracked:  
    São arquivos não rastreados pelo monitoramento do git. 
    __Importante:__ Enquanto não houver o monitoramento do arquivo o git não estará
    controlando o versionamento do mesmo.
    
- - Tracked
+ - Tracked:  
    Quando adicionamos arquivos ao monitoramento do git, o status deste arquivo
    passa a ser ‘tracked’, ou seja, rastreado.
    A partir de então o git passa a controlar as mudanças neste arquivo e todo o
    poder deste controlador de versão distribuído passa a fazer parte do seu projeto.
    Os arquivos com status ‘tracked’ são conhecidos como novos arquivos.
    
- - Modified
+ - Modified:  
    Quando modificamos um arquivo que está sendo rastreado, seu status passa a
    ser ‘modified’, ou seja, ‘modificado’.
    Desta forma sabemos facilmente se um arquivo não está sendo rastreado, ou
@@ -46,7 +46,7 @@ arquivos.
    outra pessoa baixaram uma cópia do mesmo arquivo e ambos o modificaram, de
    alguma forma o arquivo deve ser juntado ao final para gerar apenas um atualizado.
    
- - Staged
+ - Staged:  
    Quando um arquivo está pronto, ou seja, ele está sendo rastreado e já foi
    motificado e finalizado, então está pronto para ser enviado para o repositório.
    Então o status passa a ser ‘staged’, que seria algo como ‘preparado’.
