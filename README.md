@@ -52,6 +52,11 @@ arquivos.
    Então o status passa a ser ‘staged’, que seria algo como ‘preparado’.
    Os arquivos no estágio ‘staged’ são enviados para o repositório através de
    commits.
+   
+### Principais comandos
+ - git init // Inicia o monitoramento do git em um diretório.
+ - git add (Nome do arquivo) // Altera o status do arquivo de "Untracked" ou "Modified" para "Tracked".
+ - git commit -m "Digitar descrição da alterção realizada" // Altera o status de "Tracked" para "Staged".
 
 
 
