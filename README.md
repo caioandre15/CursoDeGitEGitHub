@@ -62,10 +62,11 @@ arquivos.
  - git status
 
 ### Arquivo Git Ignore
-Este arquivo faz com que o git ignore todos arquivos mencionados. Exemplos:
+Este arquivo faz com que o git ignore todos arquivos ou extensões mencionados. Exemplos:
 ```
-db.sqlite3 // Nome do arquivo
-**__pycache__ // Nome da pasta do arquivo 
+db.sqlite3 // Ignora pelo nome do arquivo.
+**__pycache__ // Ignora pelo nome do diretório. 
+*sqlite3 // Ignora pelo nome da extensão.
 ```
 
 
