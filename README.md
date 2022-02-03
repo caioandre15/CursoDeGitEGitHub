@@ -54,15 +54,22 @@ arquivos.
    commits.
    
 ### Principais comandos
+ ```
  - git init // Inicia o monitoramento do git em um diretório.
  - git add (Nome do arquivo) // Altera o status do arquivo de "Untracked" ou "Modified" para "Tracked".
  - git commit -m "Digitar descrição da alterção realizada" // Altera o status de "Tracked" para "Staged".
- 
+```
 ### Comandos Auxiliares
+ ```
  - git status
  - git add . // Adiciona todos os arquivos do diretório raiz
- - git log // Exibe o histórico de commits
  - git log --oneline // Exibe o histórico de commits em apenas uma linha
+ - git log // Exibe o histórico de commits
+       (/ Para pesquisar um commit)
+       (b Para voltar)
+       (q para sair)
+  
+```
 
 ### Arquivo Git Ignore
 Este arquivo faz com que o git ignore todos arquivos ou extensões mencionados. Exemplos:
