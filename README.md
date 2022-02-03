@@ -60,6 +60,9 @@ arquivos.
  
 ### Comandos Auxiliares
  - git status
+ - git add . // Adiciona todos os arquivos do diretório raiz
+ - git log // Exibe o histórico de commits
+ - git log --oneline // Exibe o histórico de commits em apenas uma linha
 
 ### Arquivo Git Ignore
 Este arquivo faz com que o git ignore todos arquivos ou extensões mencionados. Exemplos:
