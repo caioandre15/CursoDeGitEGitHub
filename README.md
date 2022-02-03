@@ -74,7 +74,9 @@ arquivos.
  - git log --oneline -2 // Exibe apenas os últimos dois commits em apenas uma linha.
  - git log --before="aaaa-mm-dd" // Pesquisa commits por data anterior a mencionada.
  - git log --after="aaaa-mm-dd" // Pesquisa commits por data anterior a mencionada.
-  
+ - git log --since="2 days ago" // Pesquisa commits de dois dias atrás.
+ - git log --after="1 week ago" // Pesquisa commits de após uma semana para trás, ou seja última semana.
+ - git log --author="Nome do autor" // Pesquisa commits pelo nome do autor.
 ```
 
 ### Arquivo Git Ignore
