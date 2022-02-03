@@ -62,12 +62,14 @@ arquivos.
 ### Comandos Auxiliares
  ```
  - git status
- - git add . // Adiciona todos os arquivos do diretório raiz
- - git log --oneline // Exibe o histórico de commits em apenas uma linha
- - git log // Exibe o histórico de commits
-       (/ Para pesquisar um commit)
-       (b Para voltar)
-       (q para sair)
+ - git add . // Adiciona todos os arquivos do diretório raiz.
+ - git log --oneline // Exibe o histórico de commits em apenas uma linha.
+ - git log // Exibe o histórico de commits.
+       (/ Para pesquisar um commit pela descrição)
+       (b Para voltar a listagem de commits antes da pesquisa)
+       (q Para sair)
+       - git config core.page cat // Altera o comportamento do Log para exibir todos os commits e encerrar o comando.
+       - git config core.page less // Volta para a configuração anterior
   
 ```
 
