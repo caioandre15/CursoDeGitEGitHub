@@ -86,9 +86,9 @@ db.sqlite3 // Ignora pelo nome do arquivo.
 git config --list // Lista as configurações do Git
 git config user.name "Digite seu nome" // Registra seu nome nas configurações
 git config user.email "Digite seu e-mail" // Registra seu e-mail nas configurações
-```
-### Para que não seja necessário se identificar em todos os repositórios podemos realizar uma configuração global:
-```
+
+Para que não seja necessário se identificar em todos os repositórios podemos realizar uma configuração global:
+
 git config --global user.name "Digite seu nome" // Registra seu nome nas configurações Globais
 git config --global user.email "Digite seu e-mail" // Registra seu e-mail nas configurações Globais
 ```
