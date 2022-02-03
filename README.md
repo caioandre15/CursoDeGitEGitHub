@@ -55,6 +55,7 @@ arquivos.
    
 ### Principais comandos
  ```
+ - git help (Nome do comando)
  - git init // Inicia o monitoramento do git em um diretório.
  - git add (Nome do arquivo) // Altera o status do arquivo de "Untracked" ou "Modified" para "Tracked".
  - git commit -m "Digitar descrição da alterção realizada" // Altera o status de "Tracked" para "Staged".
@@ -64,19 +65,6 @@ arquivos.
  - git status
  - git add . // Adiciona todos os arquivos do diretório raiz.
  - git log --oneline // Exibe o histórico de commits em apenas uma linha.
- - git log // Exibe o histórico de commits.
-       (/ Para pesquisar um commit pela descrição)
-       (b Para voltar a listagem de commits antes da pesquisa)
-       (q Para sair)
-       - git config core.page cat // Altera o comportamento do Log para exibir todos os commits e encerrar o comando.
-       - git config core.page less // Volta para a configuração anterior
- - git log -2 // Exibe apenas os últimos dois commits.
- - git log --oneline -2 // Exibe apenas os últimos dois commits em apenas uma linha.
- - git log --before="aaaa-mm-dd" // Pesquisa commits por data anterior a mencionada.
- - git log --after="aaaa-mm-dd" // Pesquisa commits por data anterior a mencionada.
- - git log --since="2 days ago" // Pesquisa commits de dois dias atrás.
- - git log --after="1 week ago" // Pesquisa commits de após uma semana para trás, ou seja última semana.
- - git log --author="Nome do autor" // Pesquisa commits pelo nome do autor.
 ```
 
 ### Arquivo Git Ignore
@@ -97,6 +85,24 @@ Para que não seja necessário se identificar em todos os repositórios, podemos
 
 git config --global user.name "Digite seu nome" // Registra seu nome nas configurações Globais
 git config --global user.email "Digite seu e-mail" // Registra seu e-mail nas configurações Globais
+```
+
+### Git Log
+```
+- git log --oneline // Exibe o histórico de commits em apenas uma linha.
+- git log // Exibe o histórico de commits.
+       (/ Para pesquisar um commit pela descrição)
+       (b Para voltar a listagem de commits antes da pesquisa)
+       (q Para sair)
+       - git config core.page cat // Altera o comportamento do Log para exibir todos os commits e encerrar o comando.
+       - git config core.page less // Volta para a configuração anterior
+ - git log -2 // Exibe apenas os últimos dois commits.
+ - git log --oneline -2 // Exibe apenas os últimos dois commits em apenas uma linha.
+ - git log --before="aaaa-mm-dd" // Pesquisa commits por data anterior a mencionada.
+ - git log --after="aaaa-mm-dd" // Pesquisa commits por data anterior a mencionada.
+ - git log --since="2 days ago" // Pesquisa commits de dois dias atrás.
+ - git log --after="1 week ago" // Pesquisa commits de após uma semana para trás, ou seja última semana.
+ - git log --author="Nome do autor" // Pesquisa commits pelo nome do autor.
 ```
 
 
