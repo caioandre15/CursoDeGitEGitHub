@@ -75,6 +75,9 @@ arquivos.
  - git diff (Id do commit anterior)..(Id do commit posterior) // Utilizado para exiber as diferenças entre dois commits. 
  - git commit --amend -m "Texto" // Realiza alterações no último commit, caso haja necessidade.
  - git restore --staged (Nome do arquivo) // Retorna um arquivo do estado "Staged" para "Untracked"
+ - git checkout (Nome do arquivo) // Restaura as alterações do arquivo para o último commit.
+ - git reset HEAD --hard // Restaura as alterações de todos arquivos para o último commit.
+ - git reset HEAD^ --hard // Exclui o último commit.
 ```
 
 ### Arquivo Git Ignore
