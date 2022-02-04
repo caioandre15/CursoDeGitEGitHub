@@ -73,6 +73,7 @@ arquivos.
  - git diff --staged // Exibe as alterações realizadas no código (Utilizado antes de realizar o commit).
  - git diff (Id do commit) // Exibe as diferenças entre o commit atual e o mencionado no comando.
  - git diff (Id do commit anterior)..(Id do commit posterior) // Utilizado para exiber as diferenças entre dois commits. 
+ - git commit --amend -m "Texto" // Realiza alterações no último commit, caso haja necessidade.
 ```
 
 ### Arquivo Git Ignore
