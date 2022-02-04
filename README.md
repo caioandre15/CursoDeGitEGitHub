@@ -67,6 +67,8 @@ arquivos.
  - git status
  - git add . // Adiciona todos os arquivos do diretório raiz.
  - git log --oneline // Exibe o histórico de commits em apenas uma linha.
+ - git rm (Nome do arquivo) // Deletar um arquivo via git.
+ - git diff --staged // Exibe as alterações realizadas no código (Utilizado antes de realizar o commit).
 ```
 
 ### Arquivo Git Ignore
