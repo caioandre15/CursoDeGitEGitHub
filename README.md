@@ -59,6 +59,8 @@ arquivos.
  - git init // Inicia o monitoramento do git em um diretório.
  - git add (Nome do arquivo) // Altera o status do arquivo de "Untracked" ou "Modified" para "Tracked".
  - git commit -m "Digitar descrição da alterção realizada" // Altera o status de "Tracked" para "Staged".
+ - git checkout (Id do Commit) // Retorna os arquivos do projeto para o estado do commit mencionado no comando.
+ - git checkout main //Retorna para o último commit realizado
 ```
 ### Comandos Auxiliares
  ```
