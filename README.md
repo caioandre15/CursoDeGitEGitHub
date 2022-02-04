@@ -68,10 +68,11 @@ arquivos.
  - git add . // Adiciona todos os arquivos do diretório raiz.
  - git log --oneline // Exibe o histórico de commits em apenas uma linha.
  - git mv (nome do arquivo atual) (nome do arquivo alterado) //Este comando realiza a alteração do nome do arquivo via git.  
-      A vantagem é que esta alteração é realizada e já fica no estado de stage, podendo ser realizado um commit logo após a alteração.
+     A vantagem é que esta alteração é realizada e já fica no estado de stage, podendo ser realizado um commit logo após a alteração.
  - git rm (Nome do arquivo) // Deletar um arquivo via git.
  - git diff --staged // Exibe as alterações realizadas no código (Utilizado antes de realizar o commit).
  - git diff (Id do commit) // Exibe as diferenças entre o commit atual e o mencionado no comando.
+ - git diff (Id do commit anterior)..(Id do commit posterior) // Utilizado para exiber as diferenças entre dois commits. 
 ```
 
 ### Arquivo Git Ignore
