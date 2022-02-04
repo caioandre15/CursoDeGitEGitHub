@@ -71,6 +71,7 @@ arquivos.
       A vantagem é que esta alteração é realizada e já fica no estado de stage, podendo ser realizado um commit logo após a alteração.
  - git rm (Nome do arquivo) // Deletar um arquivo via git.
  - git diff --staged // Exibe as alterações realizadas no código (Utilizado antes de realizar o commit).
+ - git diff (Id do commit) // Exibe as diferenças entre o commit atual e o mencionado no comando.
 ```
 
 ### Arquivo Git Ignore
