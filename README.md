@@ -113,10 +113,3 @@ git config --global user.email "Digite seu e-mail" // Registra seu e-mail nas co
  - git log --after="1 week ago" // Pesquisa commits de após uma semana para trás, ou seja última semana.
  - git log --author="Nome do autor" // Pesquisa commits pelo nome do autor.
 ```
-
-
-
-
-
-
-
